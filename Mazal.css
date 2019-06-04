@@ -8,7 +8,10 @@ p{
 
     background: black;
 }
-
+.corte{
+    position: relative;
+    left: 48%; 
+}
 
 }
 .barba{
