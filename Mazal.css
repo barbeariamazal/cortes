@@ -10,7 +10,7 @@ p{
 }
 
 .corte{
-    position: sticky;
+    position: relative;
     left: 49%;
 }
 .barba{
