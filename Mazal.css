@@ -36,10 +36,10 @@ p{
     left: 42%;
 }
 fieldset{
-    position: relative;
+    position: fixed;
     top: 0;
     left:0% ;
-    width: 250px;
+    width: 300px;
     font-family: cursive;
     color: white;
     background: #2b22;
