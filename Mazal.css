@@ -22,40 +22,40 @@ p{
 }   
 
 label.barba{
-    position: absolute;
-    left: 42%;
+    position: relative;
+    left: 50%;
 
 }
 label.corte{
     position: relative;
-    left: 42%;
+    left: 48%;
 }
 label.degrade{
     position: relative;
-    left: 42%;
+    left: 43.5%;
 }
 label.sobrancelha{
     position: relative;
-    left: 42%;
+    left: 33%;
 }
 label.pezinho{
     position: relative;
-    left: 42%;
+    left: 44%;
 }
 label.alisante{
     position: relative;
-    left: 42%;
+    left: 43.5%;
 }
 label.alisamento{
     position: relative;
-    left: 42%;
+    left: 35%;
 }
 
 fieldset{
     position: absolute;
     top: 300;
     right: 0 ;
-    width: 500px;
+    width: 380px;
     font-family: ;
     height: 290px;
     color: white;
