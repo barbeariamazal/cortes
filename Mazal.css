@@ -1,8 +1,9 @@
 body{
+    font-family: open sans,helvetica neue,Helvetica,Arial,sans-serif;
     background: black;
     overflow-x: auto;
     overflow-y: scroll;
-    font-family: arial,monospace;
+    
     }
 p{
     font-size: 30px;
@@ -21,7 +22,7 @@ fieldset{
     top: 0;
     left:0% ;
     width: 300px;
-    font-family: arial;
+    font-family: Helvetica;
     
     color: white;
     background: #2b22;
