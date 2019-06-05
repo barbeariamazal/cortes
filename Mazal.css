@@ -1,6 +1,10 @@
 body{
     background: black;
     }
+h1{
+    font-size: 50px;
+    
+}
 p{
     font-size: 30px;
     color: white;
@@ -9,7 +13,7 @@ p{
 
  
 .corte{
-    position: relative;
+    position: fixed;
     left: 48%; 
 }
 
@@ -131,10 +135,7 @@ td{
 }
 
 
-h1{
-    font-size: 50px;
-    
-}
+
 .pisc{
      animation: piscar 2s infinite;
     
