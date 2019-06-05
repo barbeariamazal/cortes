@@ -2,7 +2,7 @@ body{
     background: black;
     overflow-x: auto;
     overflow-y: scroll;
-    font-family: cursive,fantasy,arial,monospace;
+    
     }
 p{
     font-size: 80px;
@@ -53,7 +53,7 @@ label.alisamento{
 
 fieldset{
     position: absolute;
-    top: 200;
+    top: 300;
     right: 0 ;
     width: 380px;
     font-family: monospace;
