@@ -1,124 +1,37 @@
-body{
-    background: black;
-    overflow-x: auto;
-    overflow-y: scroll;
-    font-family: cursive,fantasy,arial,monospace;
-    }
-p{
-    font-size: 80px;
-    font-family: monospace;
-    color: white;
-     background: black;
-}
- p.end{
-    font-size: 50px;
-    font-family: monospace;
-    color: white;
-     background: black;
-}
- label.cortes{
-    position: relative;
-    left:  0 ;
-}   
+## Welcome to GitHub Pages
 
-label.barba{
-    position: relative;
-    left: 52%;
-}
-label.corte{
-    position: relative;
-    left: 52%;
-}
-label.degrade{
-    position: relative;
-    left: 45%;
-}
-label.sobrancelha{
-    position: relative;
-    left: 30%;
-}
-label.pezinho{
-    position: relative;
-    left: 45%;
-}
-label.alisante{
-    position: relative;
-    left: 42%;
-}
-label.alisamento{
-    position: relative;
-    left: 35%;
-}
+You can use the [editor on GitHub](https://github.com/barbeariamazal/cortes/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-fieldset{
-    position: relative;
-    top: 0;
-    left:0% ;
-    width: 380px;
-    font-family: monospace;
-    height: 290px;
-    color: white;
-    background: #2b22;
-     
-}
-legend{
-    background-color: #2b21;;
-    color: #fff;
-    padding: 3px 6px;
-    font-size: 30px;
-}
-select {
-    font-size: .9rem;
-    padding: 2px 5px;
-}
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-label {
-    font-size: 25px;
-    position: fixed;    
-    left: 30px;
-}
+### Markdown
 
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
+```markdown
+Syntax highlighted code block
 
-#container {
-    border: 0px solid #2a2a2a;
-    background: black;
-    top: 0;
-    margin: auto;
-    
+# Header 1
+## Header 2
+### Header 3
 
-}    
-.current-section {
-    position: fixed;
-    top: 0;
-    left: 50%;
-    width: 693px;
-    margin-left: -352px;
-    background: #222;
-    border: 5px solid #444;
-    color: #fff;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity ease-in-out 0.3s;
-    -webkit-transition: opacity ease-in-out 0.3s;
-}
+- Bulleted
+- List
 
-.tagline {
-    font: comics;
-    font-size: 80px;
-    color: white;
-    background: black;
-}
+1. Numbered
+2. List
 
-.pisc{
-     animation: piscar 2s infinite;
-    
-}
+**Bold** and _Italic_ and `Code` text
 
-    @keyframes piscar {
-    0% {background-color: antiquewhite;}
-    
-    15%  {background-color: beige;}
-    35%  {background-color: darkviolet;}
-    40% {background-color: azure;}
-}
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/barbeariamazal/cortes/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
