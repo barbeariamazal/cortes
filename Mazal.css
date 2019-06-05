@@ -1,22 +1,18 @@
 body{
     background: black;
     }
-h1{
-    font-size: 50px;
-    
-}
 p{
     font-size: 30px;
     color: white;
      background: black;
 }
 
- 
-.corte{
-    position: fixed;
-    left: 48%; 
+   
 }
 
+.corte1{
+    position: relative;
+    left: 49%;
 }
 .barba{
     position: relative;
@@ -46,7 +42,7 @@ fieldset{
     position: relative;
     top: 0;
     left:0% ;
-    width: 300px;
+    width: 250px;
     font-family: cursive;
     color: white;
     background: #2b22;
@@ -135,7 +131,10 @@ td{
 }
 
 
-
+h1{
+    font-size: 50px;
+    
+}
 .pisc{
      animation: piscar 2s infinite;
     
