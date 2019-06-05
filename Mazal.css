@@ -23,15 +23,15 @@ p{
 
 label.barba{
     position: fixed;
-    left: 35%;
+    left: 52%;
 }
 label.corte{
     position: fixed;
-    left: 40%;
+    left: 52%;
 }
 label.degrade{
     position: fixed;
-    left: 20%;
+    left: 45%;
 }
 label.sobrancelha{
     position: fixed;
@@ -39,15 +39,15 @@ label.sobrancelha{
 }
 label.pezinho{
     position: fixed;
-    left: 25%;
+    left: 45%;
 }
 label.alisante{
     position: fixed;
-    left: 32%;
+    left: 42%;
 }
 label.alisamento{
     position: fixed;
-    left: 30%;
+    left: 35%;
 }
 
 fieldset{
@@ -55,7 +55,7 @@ fieldset{
     top: 0;
     left:0% ;
     width: 380px;
-    font-family: cursive;
+    font-family: monospace;
     height: 290px;
     color: white;
     background: #2b22;
