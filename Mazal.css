@@ -4,10 +4,10 @@ body{
 p{
     font-size: 30px;
     color: white;
+     background: black;
 }
 
-    background: black;
-}
+ 
 .corte{
     position: relative;
     left: 48%; 
