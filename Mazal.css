@@ -1,49 +1,28 @@
 body{
     background: black;
+    overflow-x: auto;
+    overflow-y: scroll;
+    font-family: cursive,fantasy,arial,monospace;
     }
 p{
     font-size: 30px;
     color: white;
      background: black;
 }
+ 
+    
 
-   
-}
-
-.corte1{
-    position: relative;
-    left: 49%;
-}
 .barba{
     position: relative;
-    left: 48%;
-}
-.degrade{
-    position: relative;
-    left: 40%;
-}
-.sobrancelha{
-    position: relative;
-    left: 29%;
-}
-.pezinho{
-    position: relative;
-    left: 43%;
-}
-.alisamento{
-    position: relative;
-    left: 33%;
-}
-.alisante{
-    position: relative;
-    left: 42%;
+    left: 65%;
 }
 fieldset{
     position: relative;
     top: 0;
     left:0% ;
-    width: 250px;
-    font-family: cursive;
+    width: 300px;
+    font-family: monospace;
+    
     color: white;
     background: #2b22;
      
@@ -59,10 +38,9 @@ select {
     padding: 2px 5px;
 }
 
-footer {
-    font-size: .8rem;
-    position: absolute;
-    bottom: 30px;
+label {
+    font-size: 25px;
+    position: fixed;    
     left: 30px;
 }
 
@@ -98,43 +76,7 @@ footer {
     color: white;
     background: black;
 }
-.caixa{
-    position: relative;
-    top: 0;
-        
-    background: black;
-    color: white;
-    font-size: 70px;
-    
-}
 
-    
-
-.duaslinhas{
-   text-align: center;
-    
-
-    box-shadow: 5px #b1b1b1;
-   
-}
-.titulo{
-    font-family: sans-serif;
-    color: aliceblue;
-    font-size: 100px;
-    
-}
-
-
-td{
-    width="90%";
-    text-align: center;
-}
-
-
-h1{
-    font-size: 50px;
-    
-}
 .pisc{
      animation: piscar 2s infinite;
     
