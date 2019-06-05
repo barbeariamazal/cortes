@@ -1,124 +1,34 @@
-body{
-    background: black;
-    overflow-x: auto;
-    overflow-y: scroll;
-    font-family: cursive,fantasy,arial,monospace;
-    }
-p{
-    font-size: 80px;
-    font-family: monospace;
-    color: white;
-     background: black;
-}
- p.end{
-    font-size: 50px;
-    font-family: monospace;
-    color: white;
-     background: black;
-}
- label.cortes{
-    position: relative;
-    left:  0 ;
-}   
+<!DOCTYPE HTML>
 
-label.barba{
-    position: relative;
-    left: 52%;
-}
-label.corte{
-    position: relative;
-    left: 52%;
-}
-label.degrade{
-    position: relative;
-    left: 45%;
-}
-label.sobrancelha{
-    position: relative;
-    left: 30%;
-}
-label.pezinho{
-    position: relative;
-    left: 45%;
-}
-label.alisante{
-    position: relative;
-    left: 42%;
-}
-label.alisamento{
-    position: relative;
-    left: 35%;
-}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Mazal.css">
+    <title>BARBEARIA MAZAL</title>
+    </head>
+    <body>
+        <p>Barbearia </p>
+        <div id="container" >
+            
+            <img src="20190604_114719.gif" width="23%">
+            <img src="mazal.png" width="75%">
+                       
+        </div>
+        
+        <p class="end"><marquee  behavior="direita" scrolldelay="50">&#9988; &nbsp;&nbsp;AV: Adilson dias de Souza N &#8304; 70</marquee></p>
+           
+        <fieldset>
+            <legend>Preços</legend>
 
-fieldset{
-    position: relative;
-    top: 0;
-    left:0% ;
-    width: 380px;
-    font-family: monospace;
-    height: 290px;
-    color: white;
-    background: #2b22;
-     
-}
-legend{
-    background-color: #2b21;;
-    color: #fff;
-    padding: 3px 6px;
-    font-size: 30px;
-}
-select {
-    font-size: .9rem;
-    padding: 2px 5px;
-}
-
-label {
-    font-size: 25px;
-    position: fixed;    
-    left: 30px;
-}
-
-
-
-#container {
-    border: 0px solid #2a2a2a;
-    background: black;
-    top: 0;
-    margin: auto;
-    
-
-}    
-.current-section {
-    position: fixed;
-    top: 0;
-    left: 50%;
-    width: 693px;
-    margin-left: -352px;
-    background: #222;
-    border: 5px solid #444;
-    color: #fff;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity ease-in-out 0.3s;
-    -webkit-transition: opacity ease-in-out 0.3s;
-}
-
-.tagline {
-    font: comics;
-    font-size: 80px;
-    color: white;
-    background: black;
-}
-
-.pisc{
-     animation: piscar 2s infinite;
-    
-}
-
-    @keyframes piscar {
-    0% {background-color: antiquewhite;}
-    
-    15%  {background-color: beige;}
-    35%  {background-color: darkviolet;}
-    40% {background-color: azure;}
-}
+            <label class="cortes">Degrade</label><label class="degrade">R$ 25,00</label><br>
+            <label class="cortes">Corte</label><label class="corte">R$ 20,00</label><br>
+            <label class="cortes">Sobrancelha</label><label class="sobrancelha">R$ 15,00</label><br>    
+            <label class="cortes">Barba</label><label class="barba">R$ 06,00</label><br>
+            <label class="cortes">Pezinho</label><label class="pezinho">R$  06,00</label><br><br>
+            <label class="cortes">Alisante</label><label class="alisante">R$ 15,00</label><br>
+            <label class="cortes">Alisamento</label><label class="alisamento">R$ 20,00</label><br>
+        </fieldset>
+        
+       
+    </body>
+</html>
