@@ -22,7 +22,7 @@ p{
 }   
 
 label.barba{
-    position: relative;
+    position: absolute;
     left: 42%;
 
 }
