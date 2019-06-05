@@ -22,31 +22,31 @@ p{
 }   
 
 label.barba{
-    position: relative;
+    position: fixed;
     left: 52%;
 }
 label.corte{
-    position: relative;
+    position: fixed;
     left: 52%;
 }
 label.degrade{
-    position: relative;
+    position: fixed;
     left: 45%;
 }
 label.sobrancelha{
-    position: relative;
+    position: fixed;
     left: 30%;
 }
 label.pezinho{
-    position: relative;
+    position: fixed;
     left: 45%;
 }
 label.alisante{
-    position: relative;
+    position: fixed;
     left: 42%;
 }
 label.alisamento{
-    position: relative;
+    position: fixed;
     left: 35%;
 }
 
