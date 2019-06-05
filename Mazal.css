@@ -16,68 +16,6 @@ p{
     color: white;
      background: black;
 }
- label.cortes{
-    position: relative;
-    left:  0 ;
-}   
-
-label.barba{
-    position: relative;
-    left: 50%;
-
-}
-label.corte{
-    position: relative;
-    left: 51%;
-}
-label.degrade{
-    position: relative;
-    left: 43.5%;
-}
-label.sobrancelha{
-    position: relative;
-    left: 33%;
-}
-label.pezinho{
-    position: relative;
-    left: 44%;
-}
-label.alisante{
-    position: relative;
-    left: 43.5%;
-}
-label.alisamento{
-    position: relative;
-    left: 35%;
-}
-
-fieldset{
-    position: absolute;
-    top: 1100px;
-    left:0;
-    width: 380px;
-    font-family: ;
-    height: 290px;
-    color: white;
-    background: #2b22;
-     
-}
-legend{
-    background-color: #2b21;;
-    color: #aaa;
-    padding: 3px 6px;
-    font-size: 40px;
-}
-select {
-    font-size: .9rem;
-    padding: 2px 5px;
-}
-
-label {
-    font-size: 25px;
-    position: fixed;    
-    left: 30px;
-}
 
 
 
@@ -122,4 +60,9 @@ label {
     15%  {background-color: beige;}
     35%  {background-color: darkviolet;}
     40% {background-color: azure;}
+}
+
+img.imPrecos{
+    position: relative;
+    top: 500px;
 }
