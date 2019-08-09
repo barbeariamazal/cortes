@@ -1,0 +1,47 @@
+#contato{
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	top: 30px;
+	transform: translate(-50%,0);
+	margin: 0 0px 70px 0 ;
+	width: 80%;
+	height: 500px;	
+    box-shadow: 0 0 8px #fff;
+	z-index: 887;
+}
+
+.navalhamazal {
+	 width: 100%;
+	 height: auto;
+	 position: relative;
+	 
+}
+
+#numero {
+    position: absolute;
+    width: 90%;
+    height: 70%;
+    overflow: hidden;
+    margin: 0px auto;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -60%);
+}
+
+table {
+	position: relative;
+	padding: 5px;
+	color: #fff;
+	width: 100%;
+	height: auto;
+}
+table tr td{
+	padding: 5px 10px 10px 5px;
+	font-size: 18px;
+	text-shadow: 2px 2px blue;
+	text-align: center;
+
+}
+

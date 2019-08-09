@@ -1,0 +1,49 @@
+#valor{
+	position: relative;
+	left: 50%;
+	top: 50px;
+	transform: translate(-50%,0);
+	margin: 0 0px 70px 0 ;
+	width: 80%;
+	height: auto;
+    box-shadow: 0 0 8px #000;
+	z-index: 887;
+}
+
+#valor img {
+	 width: 100%;
+	 height: auto;
+	 position: relative;
+	 top: -30px;
+}
+#precos {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    overflow: hidden;
+    margin: 0px auto;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-46%, -40%);
+}
+
+#precosvalores {
+    position: absolute;
+    width: 40%;
+    height: 70%;
+    overflow: hidden;
+    margin: 0px auto;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -40%);   
+}
+
+
+h2{
+	color: #fff;
+	padding: 5px 10px 10px 5px;
+	font-size: 18px;
+	text-shadow: 2px 2px blue;
+
+}
